@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,900;1,400;1,700;1,900&display=swap');
+
+
+* {
+    font-family: 'Merriweather', serif;
+}
+
+body {
+    background-color: #FFF;
+}
+
+header {
+    background-image: url('images/Banner\ Image.png');
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    margin: 50px auto;
+
+}
+
+.container {
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+
+
+}
+
+.container h1,
+h3 {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 632px;
+
+}
+
+.container h3 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.container h1 {
+    color: #fff;
+    font-size: 72px;
+    width: 900;
+}
+
+/*Main Style*/
+
+
+
+
+
+.off p {
+    color: rgb(101, 94, 198);
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.off h3 {
+    color: #070211;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.off h1 {
+    color: rgb(28, 20, 243);
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.off h3 {
+    margin-top: 0;
+
+
+}
+
+.categories {
+    text-align: center;
+}
+
+/*
+#banner-2 {
+    background-image: url('images/Vectorrr.png');
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    margin: 120px auto;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}*/
+.container-2 {
+    background-image: url('images/Vectorrr.png');
+    width: 1320px;
+    height: 600px;
+
+}
+
+.container-2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 120px auto;
+    align-items: center;
+}
+
+.container-2 h1 {
+    color: #FFF;
+    font-family: 'Merriweather', serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    width: 620px;
+}
+
+.banner {
+    display: flex;
+    width: 319.83px;
+    height: 464.662px;
+    /*padding: 68px 138px 68px 0px;*/
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+#banner-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-2 .banner-text * {
+    margin-bottom: 24px;
+}
+
+.banner-text {
+    width: 692px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /*padding: 68px 138px 68px 0px;*/
+}
+
+button {
+    color: aqua;
+    background: pink;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+/* Hotel Information Style Start Here */
+.hotel {
+    width: 1320px;
+    height: 482px;
+    flex-shrink: 0;
+    margin: 120px auto;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+
+
+.hotel-1 * {
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    align-items: center;
+
+}
+.hotel-btn{
+    text-align: center;
+}
+.span{
+    color: rgb(8, 0, 255);
+}

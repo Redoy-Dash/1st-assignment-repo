@@ -3,6 +3,7 @@
 
 * {
     font-family: 'Merriweather', serif;
+    
 }
 
 body {
@@ -21,34 +22,30 @@ header {
 .container {
     border-radius: 16px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
-
-
+    
 }
-
-.container h1,
-h3 {
+.contain .container *{
     text-align: center;
-    margin: 50px auto;
-    max-width: 632px;
-
-}
-
-.container h3 {
-    color: #fff;
-    font-size: 32px;
-    font-weight: 400;
+    
 }
 
 .container h1 {
     color: #fff;
     font-size: 72px;
-    width: 900;
+    width: 632px;
+    margin-left: 344px;
+    margin-top: 233px;
+}
+
+
+.container h3 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: 0px;
 }
 
 /*Main Style*/
-
-
-
 
 
 .off p {
@@ -149,13 +146,12 @@ h3 {
 
 .banner-text {
     width: 692px;
-    color: rgba(255, 255, 255, 0.80);
+    color: rgba(237, 234, 237, 0.8);
     font-family: 'Merriweather', serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
-    /*padding: 68px 138px 68px 0px;*/
 }
 
 button {
@@ -172,6 +168,7 @@ button {
     flex-shrink: 0;
     margin: 120px auto;
     text-align: center;
+    padding-top: 100px;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
 }
 
@@ -186,9 +183,65 @@ button {
     align-items: center;
 
 }
-.hotel-btn{
+
+.hotel-btn {
     text-align: center;
 }
-.span{
+
+.span {
     color: rgb(8, 0, 255);
+}
+
+/* coming soon style Start */
+
+.coming-soon {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    width: 1600px;
+    margin: auto;
+
+}
+
+.coming-soon-1 h4 {
+    color: #F00;
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.coming-soon-1 h5 {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.coming-soon-1 p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+/* Holiday style now Started */
+.holiday{
+    text-align: center;
+    margin-top: 120px;
+    justify-content: space-between;
+}
+.holidays *{
+    margin-bottom: 50px;
+}
+.holidays h4{
+    font-size: 24px;
+}
+.holidays h1{
+    font-size: 72px;
+    font-family: 'Merriweather', serif;
 }

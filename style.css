@@ -3,7 +3,7 @@
 
 * {
     font-family: 'Merriweather', serif;
-    
+
 }
 
 body {
@@ -22,11 +22,12 @@ header {
 .container {
     border-radius: 16px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
-    
+
 }
-.contain .container *{
+
+.contain .container * {
     text-align: center;
-    
+
 }
 
 .container h1 {
@@ -34,7 +35,7 @@ header {
     font-size: 72px;
     width: 632px;
     margin-left: 344px;
-    margin-top: 233px;
+    /* margin-top: 233px; */
 }
 
 
@@ -42,7 +43,6 @@ header {
     color: #fff;
     font-size: 32px;
     font-weight: 400;
-    margin-top: 0px;
 }
 
 /*Main Style*/
@@ -229,19 +229,134 @@ button {
     font-weight: 400;
 
 }
+
 /* Holiday style now Started */
-.holiday{
+
+.holiday {
     text-align: center;
     margin-top: 120px;
     justify-content: space-between;
 }
-.holidays *{
+
+.holidays * {
     margin-bottom: 50px;
 }
-.holidays h4{
+
+.holidays h4 {
     font-size: 24px;
 }
-.holidays h1{
+
+.holidays h1 {
     font-size: 72px;
     font-family: 'Merriweather', serif;
+}
+
+/* start holiday section style two */
+.ractangle {
+    width: 1320px;
+    height: 800px;
+    flex-shrink: 0;
+    margin: auto;
+}
+
+.ractangle-1 {
+    margin: ;
+}
+
+/* gift section style started */
+
+.gift-title{
+    margin-left: 140px;
+    /* margin: auto; */
+}
+
+/* subscribe section style started */
+.subscribe {
+    width: 1320px;
+    height: 616px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: 120px auto;
+}
+
+.subscribe {
+    text-align: center;
+}
+
+.email {
+    margin: 80px 585px 40px 585px;
+}
+
+.subscriber h2 {
+    color: #070211;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.input {
+    margin: 48px auto 80px auto;
+    width: 648px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFF;
+}
+
+/* Footer section style */
+.footer {
+    width: auto;
+    height: 609px;
+    flex-shrink: 0;
+    background: #070211;
+    margin-top: 120px;
+}
+
+.address {
+    display: flex;
+    color: #fff;
+    gap: 400px;
+    padding: 120px 140px 0px 140px;
+}
+
+.paragraph {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    margin: auto;
+}
+
+.heding {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.icon {
+    align-items: center;
+}
+
+.contact {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    gap: 880px;
+    margin-bottom: 120px;
+    margin: auto;
 }

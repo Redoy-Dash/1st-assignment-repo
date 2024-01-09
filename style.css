@@ -338,12 +338,15 @@ button {
     margin: 0;
 }
 
+/* input section style */
+
 .input {
     margin: 48px auto 80px auto;
     width: 648px;
     height: 72px;
     flex-shrink: 0;
-    border-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
     background: #FFF;
     text-align: center;
     padding-top: 40px;
@@ -355,32 +358,35 @@ button {
 }
 .input-field{
     border: none;
-    margin-right: 300px;
+    margin-right: 360px;
+    margin-top: 15px;
     
 }
 .main-input{
      display: flex;
     justify-content: space-between;
+    margin-left: 300px;
    
 }
 .btn{
-    padding: 20px;
     border-radius: 0;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
     padding-left: 30px;
     padding-right: 50px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin-top: 0;
+    padding-top: 55px;
+    padding-bottom: 55px;
     color: black;
     background: greenyellow;
+    margin-top: 47px;
+    margin-right: 500px;
     
     
 
 }
 
 /* Footer section style */
+
 .footer {
     width: auto;
     height: 609px;

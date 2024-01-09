@@ -37,20 +37,18 @@ header {
 .container h1 {
     color: #fff;
     font-size: 72px;
-    /* width: 632px; */
-    /* margin-left: 344px; */
 }
 
 
 .container h3 {
     color: #fff;
     font-size: 32px;
-    /* font-weight: 400; */
 }
 
 /*Main Style started*/
 
 /* Holiday deal section style now started */
+
 .off p {
     color: rgb(101, 94, 198);
     text-align: center;
@@ -121,7 +119,6 @@ header {
     display: flex;
     width: 319.83px;
     height: 464.662px;
-    /*padding: 68px 138px 68px 0px;*/
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -157,6 +154,7 @@ button {
 }
 
 /* Hotel Information Style Start Here */
+
 .hotel {
     width: 1320px;
     height: 482px;
@@ -252,13 +250,6 @@ button {
     font-family: 'Merriweather', serif;
 }
 
-/* start holiday section style two */
-/* .ractangle {
-    width: 1320px;
-    height: 800px;
-    flex-shrink: 0;
-    margin: auto;
-} */
 
 .ractangle-2{
     margin-bottom: 55px;
@@ -273,13 +264,9 @@ button {
     align-items: center;
     display: flex;
 }
-.group-44{
-    /* padding: 100px; */
-}
+
 .group-75{
-    /* margin: 100px 10px; */
     margin-top: 150px;
-    /* padding-top: 150px; */
     margin-bottom: 0;
     
 }
@@ -306,15 +293,12 @@ button {
 /* Gift image portfolio section style started */
 
 .portfolio-gift {
-    /* margin: auto; */
-    /* display: flex; */
-    /* align-items: center; */
+
 }
 
 .portfolio-section {
     width: 1320px;
     height: 924px;
-    /* padding: 24px; */
     margin: 48px auto;
 }
 
@@ -324,6 +308,7 @@ button {
 
 
 /* subscribe section style started */
+
 .subscribe {
     width: 1320px;
     height: 616px;
@@ -375,13 +360,10 @@ button {
 }
 .main-input{
      display: flex;
-    /*text-align: center;
-    align-items: center; */
     justify-content: space-between;
    
 }
 .btn{
-    /* margin-right: 300px; */
     padding: 20px;
     border-radius: 0;
     border-top-right-radius: 50px;
@@ -391,6 +373,8 @@ button {
     padding-top: 50px;
     padding-bottom: 50px;
     margin-top: 0;
+    color: black;
+    background: greenyellow;
     
     
 
@@ -411,9 +395,7 @@ button {
     gap: 400px;
     padding: 120px 140px 0px 140px;
 }
-.footer .address *{
-    
-}
+
 
 .paragraph {
     color: #FFF;

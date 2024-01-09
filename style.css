@@ -21,6 +21,8 @@ body {
 
 /* Header section style now started */
 
+
+
 header {
     background-image: url('images/Banner\ Image.png');
     width: 1320px;
@@ -35,6 +37,7 @@ header {
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     display: block;
     align-items: center;
+    text-align: center;
 
 }
 
@@ -54,6 +57,10 @@ header {
 .container h3 {
     color: #fff;
     font-size: 32px;
+}
+.head{
+    position: relative;
+    top: 190px;
 }
 
 /*Main Style started*/

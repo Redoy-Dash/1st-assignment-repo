@@ -22,6 +22,8 @@ header {
 .container {
     border-radius: 16px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    display: block;
+    align-items: center;
 
 }
 
@@ -35,15 +37,15 @@ header {
 .container h1 {
     color: #fff;
     font-size: 72px;
-    width: 632px;
-    margin-left: 344px;
+    /* width: 632px; */
+    /* margin-left: 344px; */
 }
 
 
 .container h3 {
     color: #fff;
     font-size: 32px;
-    font-weight: 400;
+    /* font-weight: 400; */
 }
 
 /*Main Style started*/
@@ -257,17 +259,29 @@ button {
     flex-shrink: 0;
     margin: auto;
 } */
-.ractangle-section{
-    margin: 140px auto;
-}
 
+.ractangle-2{
+    margin-bottom: 55px;
+    margin-top: 0;
+
+}
 .ractangle-group{
     margin: auto;
     text-align: center;
 }
-.ractangle{
+.ractangles{
     align-items: center;
     display: flex;
+}
+.group-44{
+    /* padding: 100px; */
+}
+.group-75{
+    /* margin: 100px 10px; */
+    margin-top: 150px;
+    /* padding-top: 150px; */
+    margin-bottom: 0;
+    
 }
 
 
@@ -346,6 +360,40 @@ button {
     flex-shrink: 0;
     border-radius: 50px;
     background: #FFF;
+    text-align: center;
+    padding-top: 40px;
+  
+    
+}
+.input{
+    padding-bottom: 15px;
+}
+.input-field{
+    border: none;
+    margin-right: 300px;
+    
+}
+.main-input{
+     display: flex;
+    /*text-align: center;
+    align-items: center; */
+    justify-content: space-between;
+   
+}
+.btn{
+    /* margin-right: 300px; */
+    padding: 20px;
+    border-radius: 0;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 0;
+    
+    
+
 }
 
 /* Footer section style */
@@ -389,7 +437,8 @@ button {
 
 .icon {
     text-align: center;
-    gap: 50px;
+    gap: 40px;
+    margin: 50px;
 }
 
 .contact {
@@ -401,8 +450,8 @@ button {
     line-height: normal;
     display: flex;
     gap: 880px;
-    margin-top: 80px;
-    margin-bottom: 120px;
+    margin-top: 50px;
+    margin-bottom: 140px;
     margin-left: 160px;
     text-align: center;
 }

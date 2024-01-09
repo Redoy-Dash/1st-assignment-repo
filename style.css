@@ -95,33 +95,36 @@ header {
 
 /* Holiday deal section style now started */
 
+/* holiday image section style started */
 
-.holi {
-    margin-top: 160px;
-    margin-bottom: auto;
+.holi{
+    display: flex;
+    margin-top: 120px;
+    margin-bottom: 120px;
 }
 
 .ractangle-2 {
     position: relative;
-    left: 300px;
+    right: 130px;
+    top: 500px;
 }
 
 .ractangle-1 {
     position: relative;
     left: 1190px;
-    top: 4px;
+    top: 68px;
 }
 
 .group-44 {
     position: relative;
-    bottom: 1400px;
-    left: 1000px;
+    right: 1520px;
+    top: 130px;
 }
 
 .group-75 {
     position: relative;
-    bottom: 820px;
-    left: 300px;
+    right: 1450px;
+    bottom: 50px;
 }
 
 /* Midnight Party section style Start Here */

@@ -25,8 +25,10 @@ header {
 
 }
 
-.contain .container * {
+.contain .container *{
     text-align: center;
+    margin-bottom: 5px;
+    margin-top: 8px;
 
 }
 
@@ -35,7 +37,6 @@ header {
     font-size: 72px;
     width: 632px;
     margin-left: 344px;
-    /* margin-top: 233px; */
 }
 
 
@@ -45,9 +46,9 @@ header {
     font-weight: 400;
 }
 
-/*Main Style*/
+/*Main Style started*/
 
-
+/* Holiday deal section style now started */
 .off p {
     color: rgb(101, 94, 198);
     text-align: center;
@@ -87,17 +88,8 @@ header {
 .categories {
     text-align: center;
 }
+/* Midnight Party section style Start Here */
 
-/*
-#banner-2 {
-    background-image: url('images/Vectorrr.png');
-    background-repeat: no-repeat;
-    width: 1320px;
-    height: 600px;
-    flex-shrink: 0;
-    margin: 120px auto;
-    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
-}*/
 .container-2 {
     background-image: url('images/Vectorrr.png');
     width: 1320px;
@@ -155,10 +147,11 @@ header {
 }
 
 button {
-    color: aqua;
-    background: pink;
-    border-radius: 8px;
+    color: #FFF;
+    background: rgb(241, 4, 190);
+    border-radius: 15px;
     padding: 10px 20px;
+    border: none;
 }
 
 /* Hotel Information Style Start Here */
@@ -194,6 +187,11 @@ button {
 
 /* coming soon style Start */
 
+.coming-soon .coming-soon-1 *{
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
 .coming-soon {
     display: flex;
     justify-content: center;
@@ -222,7 +220,7 @@ button {
 }
 
 .coming-soon-1 p {
-    color: rgba(7, 2, 17, 0.60);
+    color: rgba(33, 10, 78, 0.648);
     font-family: 'Merriweather', serif;
     font-size: 20px;
     font-style: normal;
@@ -238,8 +236,9 @@ button {
     justify-content: space-between;
 }
 
-.holidays * {
-    margin-bottom: 50px;
+ .holiday .holidays  *{
+    margin-bottom: 8px;
+    margin-top: 8px;
 }
 
 .holidays h4 {
@@ -252,23 +251,63 @@ button {
 }
 
 /* start holiday section style two */
-.ractangle {
+/* .ractangle {
     width: 1320px;
     height: 800px;
     flex-shrink: 0;
     margin: auto;
+} */
+.ractangle-section{
+    margin: 140px auto;
 }
 
-.ractangle-1 {
-    margin: ;
+.ractangle-group{
+    margin: auto;
+    text-align: center;
 }
+.ractangle{
+    align-items: center;
+    display: flex;
+}
+
 
 /* gift section style started */
-
-.gift-title{
-    margin-left: 140px;
-    /* margin: auto; */
+.gift .gift-title *{
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
+
+.gift-title {
+    margin-left: 290px;
+}
+
+.gift-title h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+}
+.gift-title p{
+    color: rgba(33, 10, 78, 0.648);
+}
+
+/* Gift image portfolio section style started */
+
+.portfolio-gift {
+    /* margin: auto; */
+    /* display: flex; */
+    /* align-items: center; */
+}
+
+.portfolio-section {
+    width: 1320px;
+    height: 924px;
+    /* padding: 24px; */
+    margin: 48px auto;
+}
+
+.portfolio-section .portfolio .portfolio-gift * {
+    margin: 5px;
+}
+
 
 /* subscribe section style started */
 .subscribe {
@@ -324,6 +363,9 @@ button {
     gap: 400px;
     padding: 120px 140px 0px 140px;
 }
+.footer .address *{
+    
+}
 
 .paragraph {
     color: #FFF;
@@ -342,21 +384,25 @@ button {
     font-style: normal;
     font-weight: 500;
     line-height: 40px;
+    margin-right: 200px;
 }
 
 .icon {
-    align-items: center;
+    text-align: center;
+    gap: 50px;
 }
 
 .contact {
     color: #FFF;
-    font-family: Inter;
+    font-family: 'Merriweather', serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     display: flex;
     gap: 880px;
+    margin-top: 80px;
     margin-bottom: 120px;
-    margin: auto;
+    margin-left: 160px;
+    text-align: center;
 }

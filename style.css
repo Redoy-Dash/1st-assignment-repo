@@ -1,14 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,900;1,400;1,700;1,900&display=swap');
 
+/* Major Style */
 
 * {
     font-family: 'Merriweather', serif;
 
 }
 
+.span-2{
+    color: rgb(236, 13, 20);
+}
+
+.red{
+    color: red;
+}
+
 body {
     background-color: #FFF;
 }
+
+/* Header section style now started */
 
 header {
     background-image: url('images/Banner\ Image.png');
@@ -89,6 +100,11 @@ header {
     text-align: center;
 }
 /* Midnight Party section style Start Here */
+
+.span-1{
+    color: #FFF;
+
+}
 
 .container-2 {
     background-image: url('images/Vectorrr.png');
@@ -202,7 +218,7 @@ button {
 }
 
 .coming-soon-1 h4 {
-    color: #F00;
+    color: blue;
     font-family: 'Merriweather', serif;
     font-size: 24px;
     font-style: normal;
@@ -220,7 +236,7 @@ button {
 }
 
 .coming-soon-1 p {
-    color: rgba(33, 10, 78, 0.648);
+    color: red;
     font-family: 'Merriweather', serif;
     font-size: 20px;
     font-style: normal;

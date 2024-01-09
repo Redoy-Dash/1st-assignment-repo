@@ -95,7 +95,6 @@ header {
 
 /* Holiday deal section style now started */
 
-/* holiday image section style started */
 
 .holi{
     display: flex;
@@ -230,6 +229,12 @@ button {
 }
 
 /* coming soon style Start */
+
+.ellipse{
+    position: relative;
+    right: 50px;
+    bottom: 50px;
+}
 
 .coming-soon .coming-soon-1 * {
     margin-bottom: 15px;
